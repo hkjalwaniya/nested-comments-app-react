@@ -1,0 +1,59 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+.comments-section {
+  width: 500px;
+  margin: auto;
+  padding: 4%;
+}
+
+.comment-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.comment-input input {
+  flex-grow: 10;
+}
+
+.comment-input button {
+  flex-grow: 2;
+  margin-left: 2%;
+}
+
+.comments-wrapper {
+  border: 1px solid grey;
+  padding: 2%;
+  margin: 4% 0;
+}
+
+.hide {
+  display: none;
+}
+
+.comment {
+  text-align: left;
+}
+
+.parent-comment {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 1% 0;
+}
+
+.reply-actions button {
+  margin-left: 2%;
+}
+
+.reply-comment {
+  display: block;
+  width: 90%;
+  margin-left: 10%;
+}
